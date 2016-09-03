@@ -479,3 +479,7 @@ PRODUCT_COPY_FILES += \
 PRODUCT_SYSTEM_VERITY_PARTITION := /dev/block/platform/soc.0/f9824900.sdhci/by-name/system
 PRODUCT_VENDOR_VERITY_PARTITION := /dev/block/platform/soc.0/f9824900.sdhci/by-name/vendor
 $(call inherit-product, build/target/product/verity.mk)
+
+# Build Masquerade
+PRODUCT_PACKAGES += \
+    masquerade
