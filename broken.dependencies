@@ -1,0 +1,20 @@
+[
+  {
+    "remote": "github",
+    "repository": "drgroovestarr/megatron_kernel_angler",
+    "target_path": "kernel/huawei/angler",
+    "branch":      "n7.0"
+  },
+  {
+    "remote": "github",
+    "repository": "drgroovestarr/angler_vendor",
+    "target_path": "vendor/huawei",
+    "branch":      "n7.0"
+  },
+  {
+    "remote": "bb",
+    "repository": "drgroovestarr/aarch64-linux-android-4.9-kernel",
+    "target_path": "prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9-kernel",
+    "branch": "master"
+  }  
+]
